@@ -87,7 +87,7 @@ STRING_SESSION = getenv("STRING_SESSION", "BQD7IGgAXdPk-f_fQqDkvebAVZE_lADEe10Ho
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "7291963092"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078667802"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/oq630k.jpg")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://graph.org/file/02c5929f253d5a34916a3-635924cee537915373.jpg")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/he6axy.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/fj0l57.jpg")
 
