@@ -86,7 +86,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7878323040:AAHu3jo8nZ3eO3nkr4APV_QWXlze31JyWFg"
 STRING_SESSION = getenv("STRING_SESSION", "BQD7IGgAXdPk-f_fQqDkvebAVZE_lADEe10Ho6X5ri91jYNt8rPwCFS8OY1T1Iy1YvJmIwN_ITNcrwP09pCg7GSw1JaMwFb8Y-47FKs7kLQJP_8b6ZSCO9W3EYQ8fBOWU12xg42nlUTn3o8Cg1ajMDlj-Lr9Al3r7op-XnMh5LFsSglUWn-dHxo8SZHDM6OWlFeJt_BqYkKrZMT9Ev5_-Y7cAtFoQEqNShQUcIl8kUhCDvsp11c-uFQd9WfxcsOpdWhfeaIhggp3LJyBCw88OOZ2jlOkc4tUcTs64LZgiz3Tai4B3cQEkfCDYDXqC_Z96TSutbOkYoCZPuYUZeYC_GMMIuoPNAAAAAHR7uM4AA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "7291963092"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078667802"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://graph.org/file/02c5929f253d5a34916a3-635924cee537915373.jpg")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/he6axy.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/fj0l57.jpg")
