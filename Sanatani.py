@@ -385,8 +385,8 @@ HELP_C = """```
 
 ⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/krishu_supports)**"""
 
-HELP_X = """```
-    ۝ 𝐆𝐚𝐲𝐚𝐭𝐫𝐢 ۝ ᴍᴇɴᴜ```
+HELP_X = """
+**⌬ [۝ ᴀᴋᴀɴᴋꜱʜᴀ ᴍᴜꜱɪᴄ ۝](https://t.me/krishu_supports) **
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -1124,7 +1124,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊 Aᴅᴅᴇᴅ {position} ǫᴜᴇᴜᴇ```\n␥ ʜᴇʏ {requested_by}\n␥ ʏᴏᴜʀ sᴏɴɢ {title}\n␥ ᴘʟᴀʏ ᴀғᴛᴇʀ {position} sᴏɴɢ.```\n⏤͟🦚☺️राधे राधे☺️💓```"""
+                caption = f"""```\n🔊 Aᴅᴅᴇᴅ {position} ǫᴜᴇᴜᴇ```\n␥ ʜᴇʏ {requested_by}\n␥ ʏᴏᴜʀ sᴏɴɢ {title}\n␥ ᴘʟᴀʏ ᴀғᴛᴇʀ {position} sᴏɴɢ.```\n🥀ᴘʀᴏᴄᴇꜱꜱɪɴɢ🥀```"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail, position
@@ -1226,7 +1226,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊<b>۝ 𝐆𝐚𝐲𝐚𝐭𝐫𝐢 ۝ •```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ⫷ Aɳαɳԃ Sԋαɾɱα ⫸ ˼```"""
+                caption = f"""```\n🔊<b>۝ ᴀᴋᴀɴᴋꜱʜᴀ ᴍᴜꜱɪᴄ۝ •```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ sᴡᴇᴇᴛ & sɪᴍᴘʟᴇ ʀᴀᴊ˼```"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
