@@ -87,9 +87,9 @@ STRING_SESSION = getenv("STRING_SESSION", "BQD7IGgAXdPk-f_fQqDkvebAVZE_lADEe10Ho
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
 OWNER_ID = int(getenv("OWNER_ID", "7291963092"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002078667802"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
-REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
-STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://graph.org/file/02c5929f253d5a34916a3-635924cee537915373.jpg")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/n8rmfh.mp4")
+REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/ywthcz.jpg")
+STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/ywthcz.jpg")
 
 
 # Memory Database
@@ -225,7 +225,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @New_sanatani !!")
+    LOGGER.info("✅ Now Do Visit: @krishu_supports !!")
     await idle()
 
 
@@ -343,10 +343,10 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+TgzoPs5Y83piYmM1")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/prishus_support")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/New_sanatani"),
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/krishu_supports"),
             InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://graph.org/vTelegraphBot-12-20-11")
         ],
         [
@@ -368,7 +368,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [۝ 𝐆𝐚𝐲𝐚𝐭𝐫𝐢 ۝](https://t.me/New_Sanatani) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [۝ ᴀᴋᴀɴᴋꜱʜᴀ ᴍᴜꜱɪᴄ ۝](https://t.me/krishu_supports) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -383,7 +383,7 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/New_Sanatani)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/krishu_supports)**"""
 
 HELP_X = """```
     ۝ 𝐆𝐚𝐲𝐚𝐭𝐫𝐢 ۝ ᴍᴇɴᴜ```
@@ -400,7 +400,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/New_Sanatani)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/krishu_supports)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -440,7 +440,7 @@ async def start_message_private(client, message):
             await asyncio.sleep(0.005)  # Adjust speed of progress here
 
         # After progress bar reaches 100%, send final message and delete it
-        await baby.edit_text("**🦚राधे राधे🦚**")
+        await baby.edit_text("**🥀ᴘʀᴏᴄᴇꜱꜱɪɴɢ🥀**")
         await asyncio.sleep(1)  # Wait for 2 seconds before deletion
         await baby.delete()
 
@@ -909,10 +909,10 @@ async def change_stream(chat_id):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/New_Sanatani"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/krishu_supports"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+TgzoPs5Y83piYmM1"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/prishus_support"
             )
         ],
         [
@@ -1010,10 +1010,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/New_Sanatani"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/krishu_supports"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+TgzoPs5Y83piYmM1 "
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/prishus_support "
             )
         ],
         [
@@ -1089,10 +1089,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/New_Sanatani"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/krishu_supports"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+TgzoPs5Y83piYmM1"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/prishus_support"
             )
         ],
         [
@@ -1416,11 +1416,11 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+TgzoPs5Y83piYmM1"
+                url="https://t.me/prishus_support"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com"
+                url="https://t.me/prishus_support"
             ),
         ],
         [
